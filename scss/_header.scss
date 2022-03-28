@@ -1,0 +1,50 @@
+.nav-container
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns:repeat( 12, 4em);
+    grid-gap: 1em;
+    align-items: center;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.header-logo
+{
+    grid-column: 2/2;
+}
+
+.header-logo:hover
+{
+    cursor: pointer;
+}
+
+.nav-ul
+{
+    grid-column: 10/12;
+}
+ul 
+{
+    display: flex;
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    text-decoration:underline ;
+}
+
+
+
+

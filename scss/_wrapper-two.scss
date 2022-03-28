@@ -1,0 +1,10 @@
+#wrapper-two
+{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,16em);
+    grid-template-rows: repeat(25,4em);
+    grid-gap: 1em;
+}
+

@@ -1,0 +1,42 @@
+.footer-container
+{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns:repeat( 12, 4em);
+    grid-gap: 1em;
+    align-items: center;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.footer-logo
+{
+    grid-column: 2/2;
+}
+
+.footer-ul
+{
+    grid-column: 7;
+}
+
+.socials-ul
+{
+    grid-column: 10;
+}
+ul 
+{
+    display: flex;
+    column-gap: 10px;
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
